@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+			rel="stylesheet" />
+
+		<title>Contador de Passageiros</title>
+		<link rel="stylesheet" href="./dist/output.css" />
+		<script src="index.js" defer></script>
+	</head>
+	<body class="bg-gradient-to-r from-sky-500 to-indigo-500 grid place-content-center items-center h-screen">
+		<div class="bg-violet-300 bg-opacity-60 rounded-lg w-auto py-10 px-5 flex flex-col items-center shadow-lg">
+			<h1 class="text-3xl font-semibold">Pessoas que entraram:</h1>
+			<span id="counter-el" class="mt-5 text-4xl font-medium
+			">0</span>
+			<button id="increment-btn" class="mt-5 bg-slate-300 py-3 w-2/4 rounded-lg font-medium text-xl shadow-lg hover:bg-slate-400">INCREMENTAR</button>
+			<button id="save-btn" class="mt-2 bg-violet-300 py-3 w-2/4 rounded-lg font-medium text-xl shadow-lg hover:bg-violet-400">SALVAR</button>
+			<p id="previous-entries" class="mt-5 font-medium text-xl">Entradas anteriores: </p>
+		</div>
+	</body>
+</html>
