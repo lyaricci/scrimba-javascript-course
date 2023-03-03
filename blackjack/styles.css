@@ -52,5 +52,10 @@ button {
 }
 
 button:hover {
-	background-color: rgba(19, 18, 18, 0.80);
+	background-color: rgba(19, 18, 18, 0.8);
+}
+
+.player-el {
+	font-size: 1.2rem;
+	font-weight: 600;
 }
